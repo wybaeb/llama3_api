@@ -1,0 +1,7 @@
+transformers
+torch
+flask
+fire
+Flask==3.0.3
+llama-cpp-python
+python-dotenv

@@ -1,0 +1,6 @@
+/.DS_Store
+/.env
+/.venv
+/Dockerfile
+/model-q4_K.gguf
+/venv
