@@ -61,3 +61,25 @@ curl -X POST http://localhost:5000/interact \
     -H "Authorization: Bearer your_secure_token" \
     -H "Content-Type: application/json" \
     -d '{"text": "Как погодка сегодня?"}'
+```
+
+Example response:
+
+```json
+{
+    "response": "Привет! Погода сегодня отличная, солнце светит, температура около 25 градусов."
+}
+```
+## Credits
+
+This project uses the following open-source libraries:
+
+- [Flask](https://flask.palletsprojects.com/)
+- [llama_cpp](https://github.com/facebookresearch/llama)
+- [dotenv](https://github.com/theskumar/python-dotenv)
+
+## Author
+
+Developed by [Yaroslav Shuvaev](https://t.me/yaroslav_shuvaev).
+
+
